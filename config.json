@@ -11,7 +11,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "d159b27f-ff03-4f9d-905d-0829f2800952",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -21,19 +21,19 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/vless",
+                        "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-vless",
                         "dest": 3002
                     },
                     {
-                        "path": "/vmess",
-                        "dest": 3003
+                        "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-vmess",
+                        "dest": 3003d159b27f-ff03-4f9d-905d-0829f2800952-
                     },
                     {
-                        "path": "/trojan",
-                        "dest": 3004
+                        "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-trojan",
+                        "dest": 3004d159b27f-ff03-4f9d-905d-0829f2800952-
                     },
                     {
-                        "path": "/shadowsocks",
+                        "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-shadowsocks",
                         "dest": 3005
                     }
                 ]
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "id": "d159b27f-ff03-4f9d-905d-0829f2800952"
                     }
                 ],
                 "decryption": "none"
@@ -66,7 +66,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "d159b27f-ff03-4f9d-905d-0829f2800952",
                         "level": 0
                     }
                 ],
@@ -76,7 +76,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/vless"
+                    "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-vless"
                 }
             },
             "sniffing": {
@@ -96,7 +96,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "d159b27f-ff03-4f9d-905d-0829f2800952",
                         "alterId": 0
                     }
                 ]
@@ -104,7 +104,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-vmess"
                 }
             },
             "sniffing": {
@@ -124,7 +124,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "d159b27f-ff03-4f9d-905d-0829f2800952"
                     }
                 ]
             },
@@ -132,7 +132,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/trojan"
+                    "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-trojan"
                 }
             },
             "sniffing": {
@@ -153,7 +153,7 @@
                 "clients": [
                     {
                         "method": "chacha20-ietf-poly1305",
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "d159b27f-ff03-4f9d-905d-0829f2800952"
                     }
                 ],
                 "decryption": "none"
@@ -161,7 +161,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/shadowsocks"
+                    "path": "/d159b27f-ff03-4f9d-905d-0829f2800952-shadowsocks"
                 }
             },
             "sniffing": {
